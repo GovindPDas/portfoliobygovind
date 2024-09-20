@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awsome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fascinate+Inline&family=Nerko+One&family=Playwrite+CU:wght@100..400&family=Sevillana&display=swap"
+        rel="stylesheet">
+    <!-- animate style  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navigation -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo.avif" alt="no image">
+            <!-- links -->
+            <ul>
+                <li class="list-items"> <a class="links" href="#home">Home</a></li>
+                <li class="list-items"> <a class="links" href="#about">About me</a></li>
+                <li class="list-items"> <a class="links" href="#skills">Skill</a></li>
+                <li class="list-items"> <a class="links" href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <!-- Home content  -->
+            <div class="homeContent">
+
+                <h1 class="animate__animated animate__tada" id="username">I'm Maria <span id="lname">Joe</span></h1>
+                <p id="userDetails">This is my offical portifolio website to describes all <br> details and work
+                    experience in Web development
+                </p>
+                <a id="download" href="./Sample Resumes.pdf" download="resume">Download CV</a>
+            </div>
+            <!-- Home image  -->
+            <div class="homeImage">
+                <img id="shape" class="group1"
+                    src="./images/WhatsApp_Image_2024-09-09_at_13.58.55_c7f69825-removebg-preview.png" alt="no image">
+                <img id="girl" class="group1"
+                    src="./images/WhatsApp_Image_2024-09-09_at_13.58.55_dd8537d8-removebg-preview.png" alt="no image">
+            </div>
+        </section>
+
+        <!-- About -->
+
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainhead">About me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right" class="aboutImage">
+                    <img class="img1" src="./images/logo.avif" alt="no image">
+
+                </div>
+                <div class="aboutContenrt">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro repudiandae, quia, illum
+                        laboriosam beatae libero, non voluptas deserunt cupiditate ad! Laborum vel fugit accusamus, quia
+                        illo dolorem cumque alias.</p>
+                    <div class="information">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9037847684</span>
+
+
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>govind.p.das@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skill -->
+        <section id="skills">
+            <div class="sectionHead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My skills</span>
+            </div>
+            <div class="skillContent">
+                <div class="progressBars">
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercent">89%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercent">83%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar cssbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">71%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar jsbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">REACT</h3>
+                        <span class="barPercent">79%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar reactbar"></div>
+                    </div>
+                </div>
+                <div  data-aos="flip-right" class="skillImage">
+                    <img width="100%" class="mySkill" src="./images/skills.jpg" alt="skills">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <div class="iconcollections">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- whatsapp  -->
+                <div class="icon">
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p id="copyright">&copy; My portifolio website -june 2024, All RightsReserved to &reg; Maria Joe</p>
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
